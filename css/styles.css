@@ -55,10 +55,6 @@ header {
 	font-size: 2em;
 }
 
-.hnav a:link {
-	
-}
-
 .hnav a:hover {
 	color: #000099;
 	letter-spacing: 1px;
@@ -68,14 +64,6 @@ header {
 	color: #0000ff;
 	letter-spacing: 1px;
 	transition: all 0s;
-}
-
-.hnav a:visited {
-	
-}
-
-h1 {
-	
 }
 
 header h1 {
@@ -166,18 +154,6 @@ main a:hover {
 	min-height: 200px;
 }
 
-h2 {
-	
-}
-
-blockquote {
-	
-}
-
-table {
-	
-}
-
 footer {
 	background-color: #ffffff;
 }
@@ -194,7 +170,7 @@ img {
 }
 
 label {
-	color: #151111;
+	color: #000055;
 }
 
 footer h4, footer h5, footer h6 {
@@ -236,10 +212,6 @@ footer h4, footer h5, footer h6 {
 	font-size: 2em;
 }
 
-.fnav a:link {
-	
-}
-
 .fnav a:hover {
 	color: #000099;
 	letter-spacing: 1px;
@@ -249,35 +221,4 @@ footer h4, footer h5, footer h6 {
 	color: #0000ff;
 	letter-spacing: 1px;
 	transition: all 0s;
-}
-
-.fnav a:visited {
-	
-}
-a:link {
-	
-}
-
-a:hover {
-	
-}
-
-a:active {
-	
-}
-
-a:visited {
-	
-}
-
-.hahaFunnyTemplateJoke {
-	text-align: center;
-	color: #cc0000;
-	animation: wow 0.5s ease-in-out infinite alternate;
-	font-family: 'Arial', sans-serif;
-	line-height: 50px;
-}
-@keyframes wow {
-	0% {color: #ff0000;}
-	100% {color: #990000;}
 }
