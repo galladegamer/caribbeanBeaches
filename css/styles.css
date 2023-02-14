@@ -24,10 +24,10 @@ header {
 .hnav {
 	background-image: linear-gradient(to right, #0077ff 49%, #0099ff 50%, #00ccbb 90%);
 	background-size: 200% 100%;
-    animation: GRAD 5s ease-in infinite alternate;
+    animation: gradient 5s ease-in infinite alternate;
 }
 
-@keyframes GRAD {
+@keyframes gradient {
     0%{background-position:0% 0}
     100%{background-position:100% 0}
 }
@@ -110,16 +110,6 @@ main a:hover {
 	color: #0000ff;
 }
 
-/* FONT STYLES*/
-
-.italics {
-	font-style: italic;
-}
-
-.bold {
-	font-weight: bold;
-}
-
 /*BUTTONS*/
 
 .button {
@@ -165,9 +155,6 @@ img {
 .image {
 	text-align: center;
 }
-#templateImage {
-	transform: rotate(180deg);
-}
 
 label {
 	color: #000055;
@@ -181,12 +168,7 @@ footer h4, footer h5, footer h6 {
 .fnav {
 	background-image: linear-gradient(to right, #0077ff 49%, #0099ff 50%, #00ccbb 90%);
 	background-size: 200% 100%;
-    animation: GRAD 5s ease-in infinite alternate;
-}
-
-@keyframes GRAD {
-    0%{background-position:0% 0}
-    100%{background-position:100% 0}
+    animation: gradient 5s ease-in infinite alternate;
 }
 
 .fnav ul {
