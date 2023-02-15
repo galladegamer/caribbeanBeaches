@@ -50,7 +50,7 @@
 	background-image: linear-gradient(to bottom, #3355ff, #77ccff);
 }
 
-.tabdesk, .desktop, .desknav, #nav-links {
+#nav-links {
 	display: none;
 }
 
@@ -79,7 +79,7 @@ header h1 {
 	text-align: center;
 	color: #0000ff;
 	font-weight: bold;
-	font-size: 5em;
+	font-size: 3em;
 	font-family: 'Luckiest Guy', sans-serif;
 	-webkit-text-stroke: .1px #000088;
 }
@@ -99,7 +99,7 @@ main {
 	font-weight: bold;
 	width: 100%;
 	min-height: 600px;
-	font-size: 1.5em;
+	font-size: 1em;
 	color: #000055;
 }
 
@@ -230,6 +230,26 @@ footer h4, footer h5, footer h6 {
 		color: #0000ff;
 		letter-spacing: 1px;
 		transition: all 0s;
+	}
+	
+	header h1 {
+		text-align: center;
+		color: #0000ff;
+		font-weight: bold;
+		font-size: 5em;
+		font-family: 'Luckiest Guy', sans-serif;
+		-webkit-text-stroke: .1px #000088;
+	}
+	
+	main {
+		font-family: 'Sono', serif;
+		letter-spacing: -1px;
+		line-height: -10px;
+		font-weight: bold;
+		width: 100%;
+		min-height: 600px;
+		font-size: 1.5em;
+		color: #000055;
 	}
 	
 	.fnav {
